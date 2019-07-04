@@ -20,9 +20,7 @@ function play(e) {
   restart.style.display = 'none';
   const playerChoice = e.target.id;
   const computerChoice = getComputerChoice();
-  console.log(playerChoice, computerChoice);
   const winner = getWinner(playerChoice, computerChoice);
-  console.log(winner);
   showWinner(winner, computerChoice); 
 }
 
