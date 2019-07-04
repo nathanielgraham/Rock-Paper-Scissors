@@ -60,10 +60,20 @@ body {
   text-align: center;
 }
 
+.choice {
+  cursor: pointer;
+}
 .choice:hover {
   color: var(--primary-color);
 }
 
+.text-win {
+  color: var(--win-color);
+}
+
+.text-lose {
+  color: var(--lose-color);
+}
 .score p:first-child {
   background: var(--primary-color);  
 }
@@ -92,6 +102,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  overflow: auto;
   background: rgba(0, 0, 0, 0.5);
 
 }
@@ -111,7 +122,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.margin-content p {
+.modal-content p {
   font-size: 1.2rem;
 }
 
